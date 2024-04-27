@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "mHKhx66HsIrlM1P-3",
+      });
+   })();
+</script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">.Portfolio</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <div class="nav-item">
+          <a href="#home" class="active">Home</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="#about">About</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="#services">Services</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="#portfolio">Portfolio</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="mailto:devvratdangash04@gmail.com">Contact Me</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Devvrat Singh</h1>
+        <h3>And I'm a <span id="element"></span></h3>
+        <div class="social-media">
+          <a href="https://github.com/DevvratSingh04"
+             target="_blank"><i class="fa-brands fa-square-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/devvratsingh4/"
+             target="_blank"><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/Devvratdangash"
+             target="_blank"><i class="fa-brands fa-square-x-twitter"></i
+          ></a>
+        </div>
+        <a href="Resume.pdf" download class="btn" target="_blank">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="images/photo.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          I am Devvrat Singh, currently in 4th year with a B.Tech in Computer
+          Science from Maharishi Dayanand University. Throughout my academic
+          journey, I engaged in diverse internships , including roles as a Web
+          Development Intern at Abjayon Inc., and Technical Content Writer at
+          Geeks for Geeks. These experiences improved my skills in web
+          development, subject matter expertise, and technical content creation.
+          Moreover, I have developed notable projects such as .Musafir - Your
+          travelling companion, Netflix application, Tic-Tac-Toe game, and my
+          personal portfolio website. These projects showcase my proficiency in
+          software development and highlight my innovative approach to
+          problem-solving. I have also cleared the GATE exam with a rank of
+          8422.
+        </p>
+        <a href="" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">My<span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Coding</h3>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-palette"></i>
+          <h3>Web Development</h3>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-brands fa-android"></i>
+          <h3>App Development</h3>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/back_img.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Personal Portfolio</h4>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/back_img.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>.Musafir</h4>
+            <a href="images/musafir.mp4"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/back_img.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Netflix Clone</h4>
+            <a href="https://devvratsingh04.github.io/Netlix_Clone/"
+               target="_blank"><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/back_img.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Country Flag</h4>
+            <a href="https://devvratsingh04.github.io/Country_Flag/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/back_img.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Quote Generator</h4>
+            <a href="https://github.com/DevvratSingh04/Quote_Generator/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact<span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button class="btn" onclick="sendMail()">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by @DevvratSingh | All Rights Reserved</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
